@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#cccccc</color>
+
+    <!--home页面-->
+    <color name="home_rb_bg_selector">#fd8133</color>
+
+    <!-- tkc页面 -->
+    <color name="tkc_mor_green">#82db41</color>
+    <color name="tkc_afternoon_yellow">#fd8133</color>
+    <color name="tkc_eve_blue">#3e99e6</color>
+    <color name="tkc_nighit_black">#b2b2b2</color>
+</resources>

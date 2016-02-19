@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qianfeng.red.biechipang.other.ui.HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/home_content_fl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"/>
+
+    <RadioGroup
+        android:id="@+id/home_rg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home_bcp_rb"
+            style="@style/home_rb_style"
+            android:text="别吃胖"
+            android:background="@drawable/selector_home_btn_bg"
+            android:drawableTop="@drawable/selector_home_bcp_btn"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/home_sbk_rb"
+            style="@style/home_rb_style"
+            android:text="瘦百科"
+            android:drawableTop="@drawable/selector_home_sbk_btn"
+            />
+        <RadioButton
+
+            android:id="@+id/home_tkc_rb"
+            style="@style/home_rb_style"
+            android:text="体控餐"
+            android:drawableTop="@drawable/selector_home_tkc_btn"/>
+        <RadioButton
+            android:id="@+id/home_jzq_rb"
+            style="@style/home_rb_style"
+
+            android:text="减脂去"
+            android:drawableTop="@drawable/selector_home_jz_btn"/>
+
+
+    </RadioGroup>
+
+
+</LinearLayout>
+
